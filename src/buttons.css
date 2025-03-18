@@ -1,12 +1,12 @@
 .btn {
   outline: none;
-  padding: 24px 14px;
+  padding: 14px 24px;
   background-color: var(--button-color-main);
   color: var(--color-black);
-  border-width: 1px;
+  border-width: 2px;
   border-style: solid;
   border-color: transparent;
-  border-radius: 100%;
+  border-radius: var(--space-50);
   font-size: var(--font-20);
   font-weight: var(--font-regular);
 
@@ -28,14 +28,17 @@
   border-color: var(--button-color-main);
 
   &:hover {
+    background-color: var(--color-white);
     border-color: var(--button-color-main-hover);
   }
 
   &:active {
+    background-color: var(--color-white);
     border-color: var(--button-color-main-active);
   }
 
   &:disabled {
+    background-color: var(--color-white);
     border-color: var(--button-color-main-disabled);
   }
 }
@@ -61,14 +64,17 @@
   border-color: var(--button-color-secondary);
 
   &:hover {
+    background-color: var(--color-white);
     border-color: var(--button-color-secondary-hover);
   }
 
   &:active {
+    background-color: var(--color-white);
     border-color: var(--button-color-secondary-active);
   }
 
   &:disabled {
+    background-color: var(--color-white);
     border-color: var(--button-color-secondary-disabled);
   }
 }

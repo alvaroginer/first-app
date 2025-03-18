@@ -1,3 +1,4 @@
+import "./index.css";
 import "./buttons.css";
 
 export const Button = (props) => {
