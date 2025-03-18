@@ -11,6 +11,65 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* -----> Colors */
+  /* Yellow */
+  --color-yellow: hsl(50, 100, 55);
+  --color-yellow-hover: hsl(48, 100, 63);
+  --color-yellow-active: hsl(48, 100, 47);
+  --color-yellow-disabled: hsl(50, 100, 55, 50%);
+
+  /* Pink */
+  --color-pink: hsl(355, 100, 80);
+  --color-pink-hover: hsl(355, 100, 85);
+  --color-pink-active: hsl(355, 100, 77);
+  --color-pink-disabled: hsl(355, 100, 80, 50%);
+
+  --color-light-blue: hsl(213, 100, 93);
+  --color-black: hsl(0, 0, 0);
+  --color-white: hsl(0, 0, 100);
+
+  /* -----> Spacing */
+  --space-12: 12px;
+  --space-14: 14px;
+  --space-16: 16px;
+  --space-18: 18px;
+  --space-20: 20px;
+  --space-24: 24px;
+
+  /* -----> Fonts */
+
+  /* Font-Family */
+  --font-family: "Atkinson Hyperlegible", sans-serif;
+
+  /* Font-size */
+  --font-12: var(--space-12);
+  --font-14: var(--space-14);
+  --font-16: var(--space-16);
+  --font-18: var(--space-18);
+  --font-20: var(--space-20);
+  --font-24: var(--space-24);
+
+  /* Font-weight */
+  --font-extra-light: 200;
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* -----> Buttons */
+  /* Main */
+  --button-color-main: var(--color-yellow);
+  --button-color-main-hover: var(--color-yellow-hover);
+  --button-color-main-active: var(--color-yellow-active);
+  --button-color-main-disabled: var(--color-yellow-disabled);
+
+  /* Hover */
+  --button-color-secondary: var(--color-pink);
+  --button-color-secondary-hover: var(--color-pink-hover);
+  --button-color-secondary-active: var(--color-pink-active);
+  --button-color-secondary-disabled: var(--color-pink-disabled);
 }
 
 a {
