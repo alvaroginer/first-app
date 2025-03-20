@@ -1,6 +1,7 @@
 import "./App.css";
 import "./index.css";
 import { Button } from "./button";
+import { Card } from "./Card";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Button className="btn btn--secondary" text="text" disabled />
       <Button className="btn btn--secondary__outlined" text="text" />
       <Button className="btn btn--secondary__outlined" text="text" disabled />
+      <Card />
     </>
   );
 }
